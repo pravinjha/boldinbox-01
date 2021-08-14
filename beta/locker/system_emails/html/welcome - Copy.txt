@@ -1,0 +1,14 @@
+Dear [FIRSTNAME_OR_USERNAME],
+
+Thank you for your interest and signing up to BoldInbox. 
+
+Your account is all setup, you just need to activate it by clicking the link below or copy / paste the link in your browser window:
+
+[xxx_LINK_xxx]
+
+You can simply reply to this email or write to us at support@boldinbox.com should you have any queries getting started.
+ 
+Best,
+Team BoldInbox
+http://www.boldinbox.com
+ 

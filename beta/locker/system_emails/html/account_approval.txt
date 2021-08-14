@@ -1,0 +1,17 @@
+Hello [FIRSTNAME_OR_USERNAME],
+
+BoldInbox follows the "Permission Based" Email Marketing policy, so, before we approve and activate your account for sending, we need to have answers to the follwoing questions from you:
+
+1) What is the name and address of your company or organization and how old is your company?
+2) How many total email contacts do you have and how were these contacts collected?
+3) Are you familiar with the "Permission Based" Email Marketing policy?
+4) Please let us know:
+(a) Your Company Website Address
+(b) Contact Person(s)
+(c) Phone Number(s)
+
+Please also go ahead and import all your contacts in your BoldInbox account and create a sample campaign for our compliance team to fully evaluate and approve your account for sending.
+
+Best,
+Team BoldInbox
+http://www.boldinbox.com

@@ -1,0 +1,7 @@
+Hello [FIRSTNAME_OR_USERNAME],
+ 
+Email Promotion: "[CAMPAIGN_NAME]" has been completely sent. 
+ 
+Best,
+Team BoldInbox
+http://www.boldinbox.com

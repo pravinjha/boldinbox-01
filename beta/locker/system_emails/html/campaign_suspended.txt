@@ -1,0 +1,10 @@
+Dear [FIRSTNAME_OR_USERNAME],
+ 
+Email Promotion: "[CAMPAIGN_NAME]" has not been approved for release (and suspended) becuase of the follwoing reason(s):
+[DISALLOW_REASON]
+
+Please make the necessary changes and reschedule the email for approval.
+
+Best,
+Team BoldInbox
+http://www.boldinbox.com

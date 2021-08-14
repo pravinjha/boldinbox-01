@@ -1,0 +1,45 @@
+/* style for campaign-stats page */
+.campaign_stats_blank{min-height:430px;}
+
+section.section-new .section-inner form button#btnSearchCampaign{
+	position: absolute;	
+	right: 15px;
+	top: -5px;
+}
+
+section.campaign-list { text-align:center; }
+@media (min-width: 992px) { section.campaign-list { text-align:left;} }
+@media (min-width: 768px) { section.campaign-list { text-align:left;} }
+section.section-new .campaign-list1{ min-height:430px; }
+section.section-new .campaign-list1 button{ margin-top:5px; }
+.campaign-post .campaign-links { float:right }
+.campaign-post .campaign-share {  }
+@media (max-width: 768px) {.campaign-post .campaign-links { float:none;margin-top:5px !important; }}
+
+
+
+.piechart3d{
+	border-radius: 5px;
+	width:100%;
+	/* border: solid 1px #eeeeee;
+	padding: 3px;
+	display:block; */
+	/* box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.01); */
+	box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.02);
+}
+@media (max-width: 576px) {.piechart3d { padding-left:15px; }}
+.stats_details{
+	/* border-radius: 5px; */	
+	padding-bottom:5px;
+	margin-bottom:5px;
+	/* padding:10px; */
+	border-bottom: solid 1px #eeeeee;
+	/* box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.02); */
+}
+.buttonSmToLinks{
+	font-size:13px;
+	/* color:#fd658f !important; */
+	margin-right:5px;
+	font-weight:600;
+	/* text-transform:uppercase; */
+}

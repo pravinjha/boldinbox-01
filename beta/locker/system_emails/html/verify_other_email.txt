@@ -1,0 +1,10 @@
+Hi [FIRSTNAME_OR_USERNAME],
+ 
+You need to verify the ownership of your newly added email address to use this in your BoldInbox account. Please click the link below or copy / paste the URL in your browser window to verify the email ownership.
+ 
+[xxx_LINK_xxx]
+
+Best,
+Team BoldInbox
+http://www.boldinbox.com
+ 

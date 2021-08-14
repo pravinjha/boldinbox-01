@@ -1,0 +1,129 @@
+.clear0{display:block;clear:both;height:0px;}
+.clear1{display:block;clear:both;height:1px;}
+.clear2{display:block;clear:both;height:2px;}
+.clear3{display:block;clear:both;height:3px;}
+.clear5{display:block;clear:both;height:5px;}
+.clear8{display:block;clear:both;height:8px;}
+.clear10{display:block;clear:both;height:10px;}
+
+#messageBox{
+	position:absolute;
+	display:none;
+	top:2%;
+	width:350px;
+	left:50%;
+	margin-left:-175px;
+	border:solid 5px #1C4587;
+	height:auto;
+	background:#FFFFFF;
+	z-index:99999;
+	padding:10px;
+	color:#333;
+	font-family:calibri;
+	font-size: 14px;
+}
+#message{border:solid 0px;padding:0px 5px 0px 10px;margin-bottom:30px;border:solid 0px;}
+#message_title{
+width:290px; height:20px;line-height:20px;padding-left:10px;font-weight:bold;color:#666;border:solid 0px;
+}
+#message_close{
+cursor:pointer;position:absolute;top:0px;right:0px;background:#1C4587;height:30px;padding:0px 10px;text-align:center;border-radius:0 0 0 5px;line-height:30px;color:#FFFFFF;font-weight:bold;font-style:normal;font-family:calibri;font-size:13px;text-transform:uppercase;
+}
+#message_close2{
+cursor:pointer;position:absolute;bottom:10px;left:50%;margin-left:-40px;background:#1C4587;height:20px;width:80px;-moz-border-radius: 0px;border-radius: 0px;text-align:center;line-height:20px;color:#FFFFFF;font-weight:bold;font-style:normal;font-size:13px;padding:5px 10px;
+}
+
+#message_button,.message_button {position:absolute;left:0px;bottom:0px;width:100%;background:#1C4587;height:40px;}
+
+#message_button a, .message_button a{
+cursor:pointer;text-align:center;color:#FFFFFF;font-weight:bold;font-style:normal;font-family:calibri;font-size:13px;text-transform:uppercase;padding:3px 5px;float:right;border:solid 0px;box-shadow: 2px 3px 5px #3C78D8;background:#EBEBEB;color:#1C4587;margin: 10px 10px 0 10px;
+/*cursor:pointer;position:absolute;left:0px;bottom:0px;background:#1C4587;height:30px;text-align:center;border-radius:0 5px 0 0px;line-height:30px;color:#FFFFFF;font-weight:bold;font-style:normal;font-family:calibri;font-size:13px;text-transform:uppercase;padding:0px 10px;*/
+}
+.message_btn{
+cursor:pointer;position:absolute;bottom:10px;left:50%;margin-left:-40px;background:#cd1f25;height:20px;width:80px;-moz-border-radius: 0px;border-radius: 0px;text-align:center;line-height:20px;color:#FFFFFF;font-weight:bold;font-style:normal;font-size:12px;
+}
+
+
+/* CSS Document */
+.modalBox,.modalBox2{
+	padding:5px;
+	border:1px solid #CCC;
+	background:#FFF;
+	height:500px;
+	width:700px;
+	display:none;
+	}
+
+
+img.iw-closeImg{
+	width:24px;
+	height:24px;	
+	}	
+
+.modalFooter{
+	color:#FFF;
+	position:absolute;
+	bottom:0px;
+	}	
+
+.modalFooter span{
+	cursor:pointer;
+	}
+
+.iw-modalOverlay{
+	background:#CCC;
+	opacity:.4;
+	}		
+
+
+.button {
+	padding: 3px 5px;
+	display: inline;	
+	border: solid 1px #EFEFEF;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 500;
+	font-size:11px;
+	text-align:center;	
+	}
+.button:hover {
+	background-position: 0 center;
+	}
+.button:active {
+	background-position: 0 top;
+	position: relative;
+	top: 1px;
+	padding: 4px 10px 2px;
+	}
+.button.grey { background-color: #828282; }
+.button.grey2 { background-color: #EFEFEF;color:#0000FF;box-shadow: 2px 2px 1px #ccc; }
+.button.red { background-color: #F01828; }
+.button.purple { background-color: #9400bf; }
+.button.green { background-color: #359361; }
+.button.orange { background-color: #ff9c00; }
+.button.blue { background-color: #3C78D8; }
+.button.blueD { background-color: #1C4587; }
+.button.black { background-color: #00b6cf; }
+.button.white { background-color: #fff; color: #000; text-shadow: 1px 1px #fff; }
+.button.small { font-size: 75%; padding: 3px 7px; }
+.button.small:active { padding: 4px 7px 2px; background-position: 0 top; }
+.button.large { font-size: 110%; padding: 8px 10px; font-family:calibri;}
+.button.large:active { padding: 8px 12px 6px; background-position: 0 top; }
+.button.large2 { font-size: 250%; padding: 5px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.button.large2:active { padding: 5px 10px; background-position: 0 top; }
+.button.large3{ font-size: 180%; padding: 5px 10px;  }
+.button.large3:active { padding: 5px 10px; background-position: 0 top; }
+.button.textCap{text-transform:uppercase}
+
+.button2{background-color:#FFFFFF;border:solid 1px #ADADAD;font-size:11px;text-align:left;color:#444444;padding:2px 7px 1px 2px;cursor:pointer;}
+
+.dn{display:none;}
+.db{display:block;}
+.pd0{padding:0;}
+.mg0{margin:0;}
+.mgt0{margin-top:0;}
+.mgb0{margin-bottom:0;}
+a.au{text-decoration:underline;}
+.prl{position:relative}
+.fl{float:left;}
+.fr{float:right;}

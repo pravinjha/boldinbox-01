@@ -1,0 +1,9 @@
+Hello [FIRSTNAME_OR_USERNAME],
+
+To activate your subscription, follow the link below or copy and paste the URL in your browser:
+
+xxx_LINK_xxx
+							
+Best,
+Team BoldInbox
+http://www.boldinbox.com

@@ -1,0 +1,51 @@
+/*##### Campaign-List/Dashboard CSS - STARTS ######*/
+section.section-new .section-inner form button#btnSearchCampaign{
+	position: absolute;	
+	right: 15px;
+	top: -5px;
+}
+
+section.campaign-list { text-align:center; }
+@media (min-width: 992px) { section.campaign-list { text-align:left;} }
+@media (min-width: 768px) { section.campaign-list { text-align:left;} }
+section.section-new .campaign-list1{ min-height:430px; }
+section.section-new .campaign-list1 button{ margin-top:5px; }
+.campaign-post .campaign-links { margin-top:5px !important; }
+.campaign-post .campaign-share { float:none;margin-top:5px !important; }
+@media (min-width: 992px) {.campaign-post .campaign-links { margin-top:0px !important; }}
+@media (min-width: 768px) {.campaign-post .campaign-links { margin-top:0px !important; }}
+@media (min-width: 992px) {.campaign-post .campaign-share { float:right;margin-top:0px !important; }}
+
+/*##### Campaign-List/Dashboard CSS - ENDS ######*/
+
+
+/*##### Campaign-Layout CSS - STARTS ######*/
+section.section-new .section-inner .layout-delete button{
+	position: absolute;	
+	right: 0px;
+	bottom: 0px;
+}
+.campaign-post .card-columns{ column-count: 3 }
+.campaign-post .card{ margin-bottom:20px; }
+.start_blank_banner{float:right;}
+@media (max-width: 768px) {.start_blank_banner{float:left;}}
+@media (max-width: 576px) {
+	.campaign-post .card-columns{ column-count: 2 }
+	.campaign-post .card{ margin-bottom:10px; }
+}
+/*##### Campaign-Layout CSS - ENDS ######*/
+
+/*##### Campaign-Import-from-URL CSS - STARTS ######*/
+.campaign-from-url{min-height:450px;}
+/*##### Campaign-Import-from-URL CSS - ENDS ######*/
+
+/*##### Campaign-Import-from-ZIP CSS - STARTS ######*/
+.campaign-from-zip{min-height:450px;}
+@media (max-width: 576px) {
+	.show-instrcutions a{float:left;}
+}
+.custom-file-input {
+  padding-top:20px;
+}
+
+/*##### Campaign-Import-from-ZIP CSS - ENDS ######*/

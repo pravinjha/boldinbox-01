@@ -1,0 +1,261 @@
+#copy-code{display:none;}
+#overview{display:none;}
+.view_overview{display:none;background:#FCFCFC; padding:10px;border-radius:10px;}
+.view_code{display:none;background:#FAFAFA;padding:10px;border-radius:10px;}
+.formTable{background:#ffffff;}
+.su_form{min-height:440px;}
+.signupformlist .campaign-post{background:none !important;}
+.signupformlist .contacts-grid  {
+      
+	    border: 1px solid #eeeeee;
+		border-radius:15px;
+	  
+       }
+	.signupformlist .contacts-grid .row-head {
+       background-color: #FAFAFA;
+	    border: 0px solid #eeeeee;
+		border-bottom: 1px solid #eeeeee;
+		border-radius: 15px 15px 0px 0px;
+		height:55px;
+	  line-height:55px;
+       }
+	
+	 .signupformlist .contacts-grid .row-head .contacts-cols:last-child {
+     /* text-align:right;padding-right:15px; */
+       }
+	 .signupformlist .contacts-grid .row-footer {
+       background-color: #FAFAFA;
+	    border: 0px solid #eeeeee;
+		border-top: 1px solid #eeeeee;
+		border-radius: 0px 0px 15px 15px;
+	  height:55px;
+	  line-height:55px;
+       }
+	 .signupformlist .contacts-grid .row-footer .contacts-cols:last-child {
+      /* text-align:right;padding-right:15px; */
+       }
+	 .signupformlist .contacts-grid .row-striped:nth-of-type(even) {
+      background-color: #FFFFFF;
+       }
+	    .signupformlist .contacts-grid .row-striped:nth-of-type(odd) {
+      background-color: #FDFDFD;
+       }
+	   .signupformlist .contacts-grid .row-striped {
+      border: 0px solid #eeeeee;
+	   height:50px;
+	  line-height:50px;
+    
+       }
+	    .signupformlist .contacts-grid .row-striped:last-child {
+     /*  border-bottom: 1px solid #eeeeee; */
+       }
+	   		
+	.signupformlist .contacts-grid .contacts-cols:first-child  {	  
+	  text-align:center
+       }
+	 
+	   
+.signupformlist .contacts-grid .contacts-cols a { 
+		color:#716f85;    }
+		
+/* for mobile responsive ness */	
+	.signupformlist .contacts-grid .col-name { 
+		visibility:visible;    }
+		.signupformlist .contacts-grid .contacts-cols { 
+		padding:0px; font-size:12px;       }
+		 .signupformlist .contacts-grid .row-head .contacts-cols {
+      font-weight:500;
+	   font-size:13px;
+       }
+	   .signupformlist .contacts-grid .move-copy { display:none; }
+	   .signupformlist .contacts-grid .move-copy-icons { display:inline-block; }
+	   .signupformlist .contacts-grid .contacts-cols .contacts-ops-links .contacts-edit {visibility:visible;margin-right:-40px;}
+	   /* .signupformlist .contacts-grid .contacts-cols .contacts-ops-links .link-move-copy a {background-color: #7b6fe5;width: 32px;height: 24px;display: inline-block;text-align: center;line-height: 25px;border-radius: 20px;} */
+	 @media (min-width: 992px) {.signupformlist .contacts-grid .col-name { /* big screen */
+		visibility:visible;  }
+		.signupformlist .contacts-grid .contacts-cols { 
+		padding:0px; font-size:14px;       }
+		 .signupformlist .contacts-grid .row-head .contacts-cols {
+      font-weight:500;
+	   font-size:15px;
+       }
+		.signupformlist .contacts-grid .move-copy { display:inline-block;  }
+		.signupformlist .contacts-grid .move-copy-icons { display:none; }
+		 .signupformlist .contacts-grid .contacts-cols .contacts-ops-links .contacts-edit {visibility:visible;margin-right:3px;}
+		}
+		@media (max-width: 576px) {
+			.contacts-ops-links{margin-left:-5px !important;}
+			.contacts-ops-links a{width:24px !important;height:24px !important;line-height:24px !important;}
+		}
+	/* for mobile responsive ness */	
+		
+		
+		
+.contacts-list {
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    background: #F0F6FF;
+    font-weight: 400;
+    overflow: auto;
+    color: #36334c;
+    padding: 10px 20px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    outline: none;
+}		
+
+.field-list-grids {
+    height: 240px;
+    border: none;
+    /* border-radius: 10px; */
+    background: #F0F6FF;
+    font-weight: 400;
+    overflow: auto;
+    color: #36334c;
+    padding: 10px 20px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    outline: none;
+	
+}
+.field-list-grid .row-head {	
+	border-bottom: 1px solid #eeeeee;	
+	height:40px;
+	line-height:40px;
+	font-weight:600;	
+	background:#E6F0FF;
+	padding: 0px 20px !important;
+	border-radius: 10px 10px 0px 0px;
+	
+}
+.field-list-grid .row-footer {
+	border-top: 1px solid #eeeeee;	
+	height:10px;
+	line-height:10px;
+	font-weight:600;	
+	padding: 10px 20px !important;
+	border-radius: 0px 0px 10px 10px;
+	/* background:#E6F0FF; */
+	background:#E6F0FF;
+}
+
+
+
+/* Signup form preview css */
+.signupform {
+    -webkit-box-shadow: 0 0 25px -13px #828181;
+    -moz-box-shadow: 0 0 25px -13px #828181;
+    box-shadow: 0 0 25px -13px #828181;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    margin: 50px auto 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    /* max-width: 500px; */
+    /* min-width: 320px; */
+	/* width:100%; */
+}
+.formTable {
+    /* width: 100%; */
+}
+.formTable .form_title {
+    padding: 0 0 10px;
+}
+.formTable .form_title {
+    padding: 0 0 10px;
+}
+.form_preview td {
+    border: 0;
+}
+.formTable td {
+    padding: 0 27px 5px;
+    vertical-align: top;
+    font-size: 13px;
+    color: #828181;
+}
+.form_preview .form-title-label {
+    padding-bottom: 0;
+    display: block;
+}
+.formTable td label {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 0 7px;
+        padding-bottom: 7px;
+}
+.formTable input[type="text"] {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: inherit;
+    background: #F6F6F6;
+    margin: 0 auto 15px auto;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    border: none;
+   /*  max-width: 446px;
+    min-width: 270px;
+    width: 100%; */
+    outline: 0;
+}
+.formTable td {
+    font-size: 13px;
+    color: #828181;
+}
+.formTable .submit_button {
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    padding: 7px 0;
+    line-height: 20px;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+    margin: 0 auto 15px;
+    border: 1px solid #ccc;
+        border-top-color: rgb(204, 204, 204);
+        border-right-color: rgb(204, 204, 204);
+        border-bottom-color: rgb(204, 204, 204);
+        border-left-color: rgb(204, 204, 204);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ec1e11;
+    background-image: -moz-linear-gradient(top, #19ceff, #0704cf);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#19ceff), to(#0704cf));
+    background-image: -webkit-linear-gradient(top, #19ceff, #0704cf);
+    background-image: -o-linear-gradient(top, #19ceff, #0704cf);
+    background-image: linear-gradient(to bottom, #19ceff, #0704cf);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff19ceff', endColorstr='#ff0704cf', GradientType=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+    background-color: #0704cf;
+    border-color: #51a351 #51a351 #387038;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+/* Signup form preview css */

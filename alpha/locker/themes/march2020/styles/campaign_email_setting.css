@@ -1,0 +1,19 @@
+/*##### PAGE SPECIFIC CSS ######*/
+.rectangleSm{margin-bottom:3px;}
+#preheader,#email_address{height:60px;}
+.tipBox{display:none;}
+.contacts-list{height:200px;border:none;border-radius:10px;background:#F0F6FF;font-weight:400;overflow:auto;color: #36334c;	padding: 10px 20px;	font-family: "Poppins", Arial, Helvetica, sans-serif;	font-size: 13px;	outline: none;	}
+.advance-tracking{height:88px !important;}
+@media (min-width: 992px) {
+	.align-center{text-align:center;}
+	.float{float:right;}
+	.rectangleSm{margin-bottom:0px;}
+	.tipBox{display:block;}
+	.advance-tracking{height:67px !important;}
+}
+	
+@media (max-width: 576px) {	
+	.send_now{ margin-bottom:3px !important; }
+}
+
+/*##### PAGE SPECIFIC CSS ######*/

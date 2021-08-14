@@ -1,0 +1,12 @@
+Hello [FIRSTNAME_OR_USERNAME],
+
+We noticed that you have added new contacts to your account and in order to approve your new contacts for sending, we need some info from your end:
+
+1) How were these new contacts collected?
+2) Please "agree" that you have permission to email these contacts.
+
+Thank you in advance for your response.
+
+Best,
+Team BoldInbox
+http://www.boldinbox.com
