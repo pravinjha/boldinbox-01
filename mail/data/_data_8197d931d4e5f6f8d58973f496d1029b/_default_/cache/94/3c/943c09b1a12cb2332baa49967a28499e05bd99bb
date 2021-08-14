@@ -1,0 +1,13 @@
+{
+	"id": "rainloop",
+	"channel": "stable",
+	"name": "RainLoop Webmail",
+	"author": "RainLoop Team",
+	"url": "http://www.rainloop.net/",
+	"license": "RainLoop Software License",
+	"warnings": "1.6.6|1.6.8|1.8.1|1.9.1",
+	"release": "27.05.2017",
+	"version": "1.11.1",
+	"file": "https://github.com/RainLoop/rainloop-webmail/releases/download/v1.11.1/rainloop-1.11.1.zip",
+	"signature": "https://github.com/RainLoop/rainloop-webmail/releases/download/v1.11.1/rainloop-1.11.1.zip.asc"
+}

@@ -1,0 +1,82 @@
+DirectoryIndex  index.php index.html
+ErrorDocument 403 /
+ 
+ 
+
+#-----------------------
+RewriteCond %{HTTP_HOST} !^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^www\.boldinbox\.com$ [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^www\.beonlist\.com$ [NC]
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#-----------------------
+#RewriteCond %{HTTPS} on
+#RewriteCond %{HTTP_HOST} ^www\.boldinbox\.com$ [NC]
+#RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+ 
+ 
+
+ 
+RewriteRule ^google62208c39d628f6ef.html$ google62208c39d628f6ef.html [L]
+RewriteRule ^google6c01511647a67f51.html$ google6c01511647a67f51.html [L]
+
+Redirect 301 /support/index.html /support
+
+RewriteRule ^([^\/]*).html$ pages/view/$1
+
+RewriteCond %{QUERY_STRING} ^(.*)=(.*)
+RewriteRule ^$ index.php?/$1 [L] 
+
+#Redirect 301 /index.php/(.*) /$1
+
+RewriteRule  ^asset/css/(.*)$    /webappassets/css/$1    [NC,L]  
+RewriteRule  ^asset/header-images/(.*)$    /webappassets/header-images/$1    [NC,L]
+RewriteRule  ^asset/images/(.*)$    /webappassets/images/$1    [NC,L]    
+ 
+#RewriteRule  ^c/(.*)/(.*)$    /newsletter/campaign_preview/display_mail/$1/$2.html    [NC,L]  
+#RewriteRule  ^c/(.*)/(.*).html$    /newsletter/campaign_preview/index/$1/$2.html    [NC,L]  
+#RewriteRule  ^c/(.*)$    newsletter/campaign_preview/index/$1/$2.html    [NC,L]  
+RewriteRule  ^share/(.*).html$    newsletter/campaign_link/share_on_facebook/$1.xhtml    [L]      
+RewriteRule  ^auto_share/(.*).html$    newsletter/campaign_link/display_autoresponder/$1.xhtml    [L]      
+RewriteRule  ^campaign_email/(.*).html$    newsletter/campaign_preview/index/$1.html    [NC,L] 
+RewriteRule  ^autoresponder_email/(.*).html$    newsletter/autoresponder_preview/index/$1.html    [NC,L] 
+RewriteRule  ^a/(.*).html$    newsletter/autoresponder_preview/index/$1/$2/$3.html    [NC,L] 
+RewriteRule  ^a/(.*)$    newsletter/autoresponder_preview/index/$1/$2/$3.html    [NC,L] 
+RewriteRule  ^a/(.*)/(.*)/(.*).html$    newsletter/autoresponder_preview/index/$1/$2/$3.html    [NC,L] 
+RewriteRule  ^a/(.*)/(.*)/(.*)$    newsletter/autoresponder_preview/index/$1/$2/$3.html    [NC,L] 
+RewriteRule ^(webmaster)$ index.php/webmaster/account/ [L]
+ 
+#RewriteRule   signup$ user/register.html [L]
+#RewriteRule  ^signup-form/(.*).html$    newsletter/signup/subscribe/$1.xhtml    [L]   
+#RewriteRule  ^s/(.*).html$    newsletter/signup/signupform_url/$1.xhtml    [L]   
+#RewriteRule  ^s/(.*)$    newsletter/signup/signupform_url/$1.xhtml    [L]   
+ 
+ 
+#RewriteRule  home$    home/index.html    [L] 
+#RewriteRule  contact$    contactus/index.html    [L] 
+#RewriteRule  terms$    terms_condition/index.html    [L] 
+#RewriteRule  privacy$    privacy/index.html    [L] 
+#RewriteRule  anti-spam$    anti_policy/index.html    [L] 
+#RewriteRule  about$    about_us/index.html    [L] 
+#RewriteRule  email-marketing-features$    feature/index.html    [L] 
+#RewriteRule  email-marketing-features/website_creator$    feature/website_creator.html    [L] 
+
+ 
+
+RewriteCond $1 !^(index\.php|index\.html|robots\.txt|google6c01511647a67f51\.html|mail|zohoverify|beta|open\.php)
+ 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ index.php?/$1 [L]
+</IfModule>
+ 

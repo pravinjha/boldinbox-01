@@ -1,0 +1,83 @@
+<div class="adminSecurity g-ui-user-select-none">
+	<div class="form-horizontal">
+		<div class="legend">
+			Security
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<label data-bind="click: function () { capaOpenPGP(!capaOpenPGP()); }">
+					<i data-bind="css: capaOpenPGP() ? 'icon-checkbox-checked' : 'icon-checkbox-unchecked'"></i>
+					&nbsp;&nbsp;
+					Allow OpenPGP
+					<span style="color:red">(beta)</span>
+				</label>
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<label data-bind="click: function () { capaTwoFactorAuth(!capaTwoFactorAuth()); }">
+					<i data-bind="css: capaTwoFactorAuth() ? 'icon-checkbox-checked' : 'icon-checkbox-unchecked'"></i>
+					&nbsp;&nbsp;
+					Allow 2-Step Verification (Google Authenticator)
+				</label>
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<label data-bind="click: function () { useLocalProxyForExternalImages(!useLocalProxyForExternalImages()); }">
+					<i data-bind="css: useLocalProxyForExternalImages() ? 'icon-checkbox-checked' : 'icon-checkbox-unchecked'"></i>
+					&nbsp;&nbsp;
+					Use local proxy for external images
+					<span style="color:red">(beta)</span>
+				</label>
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<a href="#" target="_blank" class="g-ui-link" data-bind="link: phpInfoLink()">Show PHP information</a>
+			</div>
+		</div>
+	</div>
+	<br />
+	<div class="form-horizontal">
+		<div class="legend">
+			Change Admin Password
+		</div>
+		<div class="control-group">
+			<label class="control-label">
+				Current password
+			</label>
+			<div class="controls">
+				<input type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+					data-bind="value: adminPassword, valueUpdate: 'afterkeydown'" />
+			</div>
+		</div>
+		<div class="control-group" data-bind="css: {'error': adminPasswordNewError}">
+			<label class="control-label">
+				New password
+			</label>
+			<div class="controls">
+				<input type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+					data-bind="value: adminPasswordNew, valueUpdate: 'afterkeydown'" />
+			</div>
+		</div>
+		<div class="control-group" data-bind="css: {'error': adminPasswordNewError}">
+			<label class="control-label">
+				Repeat new password
+			</label>
+			<div class="controls">
+				<input type="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+					data-bind="value: adminPasswordNew2, valueUpdate: 'afterkeydown'" />
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<a class="btn" data-bind="command: saveNewAdminPasswordCommand, css: { 'btn-success': adminPasswordUpdateSuccess, 'btn-danger': adminPasswordUpdateError }">
+					<i class="icon-key" data-bind="css: {'icon-white': adminPasswordUpdateSuccess() || adminPasswordUpdateError() }"></i>
+					&nbsp;&nbsp;
+					Update Password
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
