@@ -1,0 +1,165 @@
+{
+  "id": "evt_1HzSGtFFPzmN8KRBZXjyMYFm",
+  "object": "event",
+  "api_version": "2020-08-27",
+  "created": 1608233778,
+  "data": {
+    "object": {
+      "id": "pi_1HzSGqFFPzmN8KRBEfHgnTvM",
+      "object": "payment_intent",
+      "amount": 4400,
+      "amount_capturable": 0,
+      "amount_received": 4400,
+      "application": "ca_DbWL8VwqZdd3SEbAMOsAgspeuW9hSbKy",
+      "application_fee_amount": 88,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic",
+      "charges": {
+        "object": "list",
+        "data": [
+          {
+            "id": "ch_1HzSGrFFPzmN8KRBKtvgmlWG",
+            "object": "charge",
+            "amount": 4400,
+            "amount_captured": 4400,
+            "amount_refunded": 0,
+            "application": "ca_DbWL8VwqZdd3SEbAMOsAgspeuW9hSbKy",
+            "application_fee": null,
+            "application_fee_amount": 88,
+            "balance_transaction": "txn_1HzSGsFFPzmN8KRBDQbpsvP5",
+            "billing_details": {
+              "address": {
+                "city": null,
+                "country": null,
+                "line1": null,
+                "line2": null,
+                "postal_code": "12553",
+                "state": null
+              },
+              "email": null,
+              "name": "renee.bellber@gmail.com",
+              "phone": null
+            },
+            "calculated_statement_descriptor": "WATCHLIVENOW.COM",
+            "captured": true,
+            "created": 1608233777,
+            "currency": "usd",
+            "customer": "cus_IadX7tsIjuXa65",
+            "description": "WatchLiveNow | \u0026#34;A FAMILIAR SUITE\u0026#34; - A unique version of The Nutcracker. 3:00PM SHOW. Presented by Step It up Dance \u0026#34;A FAMILIAR SUITE\u0026#34; - A unique version of The Nutcracker. 6:00PM SHOW. Presented by Step It up Dance",
+            "destination": null,
+            "dispute": null,
+            "disputed": false,
+            "failure_code": null,
+            "failure_message": null,
+            "fraud_details": {
+            },
+            "invoice": null,
+            "livemode": true,
+            "metadata": {
+            },
+            "on_behalf_of": null,
+            "order": null,
+            "outcome": {
+              "network_status": "approved_by_network",
+              "reason": null,
+              "risk_level": "normal",
+              "seller_message": "Payment complete.",
+              "type": "authorized"
+            },
+            "paid": true,
+            "payment_intent": "pi_1HzSGqFFPzmN8KRBEfHgnTvM",
+            "payment_method": "pm_1HzSGqFFPzmN8KRBsu0QgI9e",
+            "payment_method_details": {
+              "card": {
+                "brand": "amex",
+                "checks": {
+                  "address_line1_check": null,
+                  "address_postal_code_check": "pass",
+                  "cvc_check": "pass"
+                },
+                "country": "US",
+                "exp_month": 12,
+                "exp_year": 2024,
+                "fingerprint": "WQTxdvTk8WsmL4JC",
+                "funding": "credit",
+                "installments": null,
+                "last4": "8002",
+                "network": "amex",
+                "three_d_secure": null,
+                "wallet": null
+              },
+              "type": "card"
+            },
+            "receipt_email": null,
+            "receipt_number": null,
+            "receipt_url": "https://pay.stripe.com/receipts/acct_1HcvVHFFPzmN8KRB/ch_1HzSGrFFPzmN8KRBKtvgmlWG/rcpt_IadXjnAGDgp2Tf1PtOSCf1olileDqg0",
+            "refunded": false,
+            "refunds": {
+              "object": "list",
+              "data": [
+
+              ],
+              "has_more": false,
+              "total_count": 0,
+              "url": "/v1/charges/ch_1HzSGrFFPzmN8KRBKtvgmlWG/refunds"
+            },
+            "review": null,
+            "shipping": null,
+            "source": null,
+            "source_transfer": null,
+            "statement_descriptor": null,
+            "statement_descriptor_suffix": null,
+            "status": "succeeded",
+            "transfer_data": null,
+            "transfer_group": null
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/charges?payment_intent=pi_1HzSGqFFPzmN8KRBEfHgnTvM"
+      },
+      "client_secret": "pi_1HzSGqFFPzmN8KRBEfHgnTvM_secret_cxsyyw0RUDUHdSF3W5EFiciox",
+      "confirmation_method": "automatic",
+      "created": 1608233776,
+      "currency": "usd",
+      "customer": "cus_IadX7tsIjuXa65",
+      "description": "WatchLiveNow | \u0026#34;A FAMILIAR SUITE\u0026#34; - A unique version of The Nutcracker. 3:00PM SHOW. Presented by Step It up Dance \u0026#34;A FAMILIAR SUITE\u0026#34; - A unique version of The Nutcracker. 6:00PM SHOW. Presented by Step It up Dance",
+      "invoice": null,
+      "last_payment_error": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1HzSGqFFPzmN8KRBsu0QgI9e",
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_U6J9NwJ44fz9Yk",
+    "idempotency_key": null
+  },
+  "type": "payment_intent.succeeded"
+}

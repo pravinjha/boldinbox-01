@@ -1,0 +1,7 @@
+Hello [FIRSTNAME_OR_USERNAME],
+ 
+Your email contacts were successfully imported in your BoldInbox account.
+ 
+Best,
+Team BoldInbox
+http://www.boldinbox.com

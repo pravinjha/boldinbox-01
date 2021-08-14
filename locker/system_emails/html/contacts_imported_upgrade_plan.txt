@@ -1,0 +1,9 @@
+Hello [FIRSTNAME_OR_USERNAME],
+
+Your email contacts were successfully imported in your BoldInbox account. However, you now have more contacts in your account than allowed at your plan level. 
+
+Please upgrade your plan or let us know if you need any assistance from our side. 
+ 
+Best,
+Team BoldInbox
+http://www.boldinbox.com

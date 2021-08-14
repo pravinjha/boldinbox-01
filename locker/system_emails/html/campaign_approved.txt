@@ -1,0 +1,7 @@
+Hello [FIRSTNAME_OR_USERNAME],
+ 
+Email Promotion: "[CAMPAIGN_NAME]" has been approved for release.
+ 
+Best,
+Team BoldInbox
+http://www.boldinbox.com

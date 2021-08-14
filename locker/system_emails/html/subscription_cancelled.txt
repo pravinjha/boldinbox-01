@@ -1,0 +1,9 @@
+Hello [FIRSTNAME_OR_USERNAME],
+
+Your BoldInbox subscription has been successfully cancelled, however, you will be able to use the account until the end of running subscription.
+
+Please write to us at support@boldinbox.com should you have any queries regarding this.
+ 
+Best,
+Team BoldInbox
+http://www.boldinbox.com

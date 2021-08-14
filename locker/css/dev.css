@@ -1,0 +1,148 @@
+.contacts_message {
+  width:88%;
+  font-weight: 500;  
+  border: 0px solid #CCC;
+  line-height: 20px;
+  font-weight:bold;
+  font-size: 13px;  
+  color:blue;
+  background:url('../images/icons/info.png') no-repeat 0.5% 50%;
+  background-color: #B5F3B5;
+}
+.info {
+  width:79%;
+  font-weight: 500;  
+  border: 0px solid #CCC;
+  line-height: 20px;
+  font-weight:bold;
+  font-size: 13px;  
+  color:blue;
+  background:url('../images/icons/info.png') no-repeat 0.5% 50%;
+  background-color: #B5F3B5;
+}
+.info:not(:empty) {
+  margin: 0px 5px 5px 5px;
+  padding: 5px 35px 5px 43px;
+  text-align:left;
+}
+.contacts_message p {
+  font-weight: 700 !important;
+  color: #3a87ad !important;
+  line-height: 20px !important;
+}
+.contacts_message:empty {
+  display: none !important;
+}
+.contacts_message:not(:empty) {
+  margin: 5px 5px 0px 5px;
+  padding: 8px 35px 8px 43px;
+}
+
+.drop-down {
+  list-style:none;margin:0;padding:6px 0;	
+  display: none;
+  width: 200px;
+  position: absolute;
+  height: auto !important;
+  top: 20px;
+  left: 0px;
+  z-index: 999;
+  background: #fff;
+  border: solid 0px #ccc;
+  color: #000;
+
+  font-size: 12px;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  text-align:left;
+  
+}
+.drop-down  li{padding:8px;border-bottom:dotted 1px #EFEFEF;float:left;width:100%;box-shadow:none;}
+.drop-down  a{font-size:18px;font-weight:700;color:#666;box-shadow:none;}
+.cm_dpd_a{font-size:18px;font-weight:700;color:#666;box-shadow:none;}
+
+.show_records_per_page{float:right;width:35%;border:solid 0px;text-align:right;padding-right:10px;}
+.show_records_per_page select {border:solid 1px #CCCCCC;font-size:14px;height: 30px; padding: 0px 0; width: 55px;  margin-left: 0px;background:#fafafa;color:#666;}
+
+.pagination_div {
+  float:left;width:60%;border:solid 0px;height:30px;padding-left:5px;
+}
+ul.pagination {
+  padding:0;margin:0;border:solid 0px;float:left;width:100%;text-align:right;
+}
+ul.pagination li {
+  float: left;
+  margin: 0;
+  border:solid 0px #c00;
+}
+ul.pagination li:last-child a {
+  border-right: 1px solid #bbb;
+}
+ul.pagination li a {
+  background-color: #fafafa;  
+  display: inline-block;
+  font-weight: 700;
+  text-shadow: none;
+  font-size: 13px;
+  float: left;
+  color: #666;
+  margin: 0;
+  padding: 5px 12px;
+  border: 1px solid #bbb;
+  border-right: 0;
+
+}
+ul.pagination li a.selected {
+  background: #eee;
+  text-decoration: none;
+  color: #888;
+}
+ul.pagination li a:hover {
+  background-color: #eee;
+}
+
+ul.paging {
+  padding:0;margin:0;border:solid 0px;float:left;width:100%;text-align:right;
+}
+ul.paging li {
+  float: left;
+  margin: 0;
+  border:solid 0px #c00;
+}
+ul.paging li:last-child a {
+  border-right: 1px solid #bbb;
+}
+ul.paging li a {
+  background-color: #fafafa;  
+  display: inline-block;
+  font-weight: 700;
+  text-shadow: none;
+  font-size: 13px;
+  float: left;
+  color: #666;
+  margin: 0;
+  padding: 5px 12px;
+  border: 1px solid #bbb;
+  border-right: 0;
+
+}
+ul.paging li a.selected {
+  background: #eee;
+  text-decoration: none;
+  color: #888;
+}
+ul.paging li a:hover {
+  background-color: #eee;
+}
+
+
+
+.form_submit_btn_class{cursor:pointer;text-align:center;color:#FFFFFF;font-weight:bold;font-style:normal;font-family:calibri;font-size:13px;text-transform:uppercase;padding:3px 5px;float:right;border:solid 0px;box-shadow: 2px 3px 5px #3C78D8;background:#EBEBEB;color:#1C4587;margin: 10px 10px 0 10px;}
+.transparent_place_holder{position:absolute;top:0;left:0;border:solid 0px;background:none;width:93%;height:30px;cursor:pointer;}
+
+.layouts_container{border:solid 0px;width:97%;margin:auto;margin-top:10px;}
+.layout_thumbs{float:left;width:205px;height:250px;border:solid 1px #ccc;margin:6px;padding:6px;box-shadow:3px 4px 7px #888;position:relative;}
+.layout_thumbs_custom{float:left;width:205px;height:154px;border:solid 1px #ccc;margin:6px;padding:6px;box-shadow:3px 4px 7px #888;position:relative;}
+.layout_delete{position:absolute;bottom:5px;right:0;}
+.layout_delete a{background:#CC0000;color:#FFFFFF;font-size:14px;padding:5px 8px;}

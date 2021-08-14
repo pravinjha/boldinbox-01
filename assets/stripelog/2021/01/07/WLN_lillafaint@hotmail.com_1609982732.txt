@@ -1,0 +1,165 @@
+{
+  "id": "evt_1I6nFkFFPzmN8KRBk5cDFMt0",
+  "object": "event",
+  "api_version": "2020-08-27",
+  "created": 1609982728,
+  "data": {
+    "object": {
+      "id": "pi_1I6nFiFFPzmN8KRBNVmHubtn",
+      "object": "payment_intent",
+      "amount": 2200,
+      "amount_capturable": 0,
+      "amount_received": 2200,
+      "application": "ca_DbWL8VwqZdd3SEbAMOsAgspeuW9hSbKy",
+      "application_fee_amount": 44,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic",
+      "charges": {
+        "object": "list",
+        "data": [
+          {
+            "id": "ch_1I6nFjFFPzmN8KRBKq66rMXz",
+            "object": "charge",
+            "amount": 2200,
+            "amount_captured": 2200,
+            "amount_refunded": 0,
+            "application": "ca_DbWL8VwqZdd3SEbAMOsAgspeuW9hSbKy",
+            "application_fee": null,
+            "application_fee_amount": 44,
+            "balance_transaction": "txn_1I6nFkFFPzmN8KRBJrNBbAEZ",
+            "billing_details": {
+              "address": {
+                "city": null,
+                "country": null,
+                "line1": null,
+                "line2": null,
+                "postal_code": "10996",
+                "state": null
+              },
+              "email": null,
+              "name": "lillafaint@hotmail.com",
+              "phone": null
+            },
+            "calculated_statement_descriptor": "WATCHLIVENOW.COM",
+            "captured": true,
+            "created": 1609982727,
+            "currency": "usd",
+            "customer": "cus_IiDhI206LWJNn7",
+            "description": "WatchLiveNow | Step by Step presents: DANCE YOUR STORY - Recital 2020",
+            "destination": null,
+            "dispute": null,
+            "disputed": false,
+            "failure_code": null,
+            "failure_message": null,
+            "fraud_details": {
+            },
+            "invoice": null,
+            "livemode": true,
+            "metadata": {
+            },
+            "on_behalf_of": null,
+            "order": null,
+            "outcome": {
+              "network_status": "approved_by_network",
+              "reason": null,
+              "risk_level": "normal",
+              "seller_message": "Payment complete.",
+              "type": "authorized"
+            },
+            "paid": true,
+            "payment_intent": "pi_1I6nFiFFPzmN8KRBNVmHubtn",
+            "payment_method": "pm_1I6nFiFFPzmN8KRBcf7E0PaD",
+            "payment_method_details": {
+              "card": {
+                "brand": "visa",
+                "checks": {
+                  "address_line1_check": null,
+                  "address_postal_code_check": "pass",
+                  "cvc_check": "pass"
+                },
+                "country": "US",
+                "exp_month": 6,
+                "exp_year": 2022,
+                "fingerprint": "mKeX9nabq0281lNb",
+                "funding": "credit",
+                "installments": null,
+                "last4": "8173",
+                "network": "visa",
+                "three_d_secure": null,
+                "wallet": null
+              },
+              "type": "card"
+            },
+            "receipt_email": null,
+            "receipt_number": null,
+            "receipt_url": "https://pay.stripe.com/receipts/acct_1HcvVHFFPzmN8KRB/ch_1I6nFjFFPzmN8KRBKq66rMXz/rcpt_IiDhFf7bhXrgK8eVpYlTkD9qhNUZ6vJ",
+            "refunded": false,
+            "refunds": {
+              "object": "list",
+              "data": [
+
+              ],
+              "has_more": false,
+              "total_count": 0,
+              "url": "/v1/charges/ch_1I6nFjFFPzmN8KRBKq66rMXz/refunds"
+            },
+            "review": null,
+            "shipping": null,
+            "source": null,
+            "source_transfer": null,
+            "statement_descriptor": null,
+            "statement_descriptor_suffix": null,
+            "status": "succeeded",
+            "transfer_data": null,
+            "transfer_group": null
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/charges?payment_intent=pi_1I6nFiFFPzmN8KRBNVmHubtn"
+      },
+      "client_secret": "pi_1I6nFiFFPzmN8KRBNVmHubtn_secret_0ViLqPF2DxBb4LFx9AJaxD7H1",
+      "confirmation_method": "automatic",
+      "created": 1609982726,
+      "currency": "usd",
+      "customer": "cus_IiDhI206LWJNn7",
+      "description": "WatchLiveNow | Step by Step presents: DANCE YOUR STORY - Recital 2020",
+      "invoice": null,
+      "last_payment_error": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1I6nFiFFPzmN8KRBcf7E0PaD",
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_evKGxmvz5KuCtJ",
+    "idempotency_key": null
+  },
+  "type": "payment_intent.succeeded"
+}

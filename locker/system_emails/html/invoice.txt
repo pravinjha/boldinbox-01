@@ -1,0 +1,21 @@
+Hello [FIRSTNAME_OR_USERNAME],
+
+Thank you for your order. Here are the details:
+ 
+Order ID: [ORDER_ID]
+Order Date: [PURCHASE_DATE]
+Current Package: [CURRENT_PLAN]
+Amount: [AMOUNT_PAID]
+ 
+
+Billed to: [BILLED_TO]
+Name: [COMPANY]
+Phone: [PHONE]
+Email: [EMAIL_ADDRESS]
+Address: [BILLING_ADDRESS]
+ 
+Please write to us at support@boldinbox.com should you have any queries regarding this order.
+ 
+Best,
+Team BoldInbox
+http://www.boldinbox.com

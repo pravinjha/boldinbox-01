@@ -1,0 +1,165 @@
+{
+  "id": "evt_1I2MAXFFPzmN8KRB4O8vA2za",
+  "object": "event",
+  "api_version": "2020-08-27",
+  "created": 1608925305,
+  "data": {
+    "object": {
+      "id": "pi_1I2MAVFFPzmN8KRBEdLsDctb",
+      "object": "payment_intent",
+      "amount": 4200,
+      "amount_capturable": 0,
+      "amount_received": 4200,
+      "application": "ca_DbWL8VwqZdd3SEbAMOsAgspeuW9hSbKy",
+      "application_fee_amount": 84,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic",
+      "charges": {
+        "object": "list",
+        "data": [
+          {
+            "id": "ch_1I2MAWFFPzmN8KRBs1UiecmP",
+            "object": "charge",
+            "amount": 4200,
+            "amount_captured": 4200,
+            "amount_refunded": 0,
+            "application": "ca_DbWL8VwqZdd3SEbAMOsAgspeuW9hSbKy",
+            "application_fee": null,
+            "application_fee_amount": 84,
+            "balance_transaction": "txn_1I2MAWFFPzmN8KRB52T3utBT",
+            "billing_details": {
+              "address": {
+                "city": null,
+                "country": null,
+                "line1": null,
+                "line2": null,
+                "postal_code": "92630",
+                "state": null
+              },
+              "email": null,
+              "name": "nymcd85@gmail.com",
+              "phone": null
+            },
+            "calculated_statement_descriptor": "WATCHLIVENOW.COM",
+            "captured": true,
+            "created": 1608925304,
+            "currency": "usd",
+            "customer": "cus_IddRtF1OUZU5Lz",
+            "description": "WatchLiveNow | Nick Di Paolo LIVE from The Plaza Hotel \u0026#38; Casino in Las Vegas presented by Sheath Underwear! Roast of Lenny Dykstra (charity event for child hunger) $20 DONATION",
+            "destination": null,
+            "dispute": null,
+            "disputed": false,
+            "failure_code": null,
+            "failure_message": null,
+            "fraud_details": {
+            },
+            "invoice": null,
+            "livemode": true,
+            "metadata": {
+            },
+            "on_behalf_of": null,
+            "order": null,
+            "outcome": {
+              "network_status": "approved_by_network",
+              "reason": null,
+              "risk_level": "normal",
+              "seller_message": "Payment complete.",
+              "type": "authorized"
+            },
+            "paid": true,
+            "payment_intent": "pi_1I2MAVFFPzmN8KRBEdLsDctb",
+            "payment_method": "pm_1I2MAVFFPzmN8KRBgXGzhOZR",
+            "payment_method_details": {
+              "card": {
+                "brand": "visa",
+                "checks": {
+                  "address_line1_check": null,
+                  "address_postal_code_check": "pass",
+                  "cvc_check": "pass"
+                },
+                "country": "US",
+                "exp_month": 8,
+                "exp_year": 2024,
+                "fingerprint": "xBnK94xHkZTYdzU9",
+                "funding": "credit",
+                "installments": null,
+                "last4": "3476",
+                "network": "visa",
+                "three_d_secure": null,
+                "wallet": null
+              },
+              "type": "card"
+            },
+            "receipt_email": null,
+            "receipt_number": null,
+            "receipt_url": "https://pay.stripe.com/receipts/acct_1HcvVHFFPzmN8KRB/ch_1I2MAWFFPzmN8KRBs1UiecmP/rcpt_IddRGD3KvTztvxj4dAqyazZ1g5D7Cpk",
+            "refunded": false,
+            "refunds": {
+              "object": "list",
+              "data": [
+
+              ],
+              "has_more": false,
+              "total_count": 0,
+              "url": "/v1/charges/ch_1I2MAWFFPzmN8KRBs1UiecmP/refunds"
+            },
+            "review": null,
+            "shipping": null,
+            "source": null,
+            "source_transfer": null,
+            "statement_descriptor": null,
+            "statement_descriptor_suffix": null,
+            "status": "succeeded",
+            "transfer_data": null,
+            "transfer_group": null
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/charges?payment_intent=pi_1I2MAVFFPzmN8KRBEdLsDctb"
+      },
+      "client_secret": "pi_1I2MAVFFPzmN8KRBEdLsDctb_secret_rm9yzxnzO79VqBazzlahhTX6r",
+      "confirmation_method": "automatic",
+      "created": 1608925303,
+      "currency": "usd",
+      "customer": "cus_IddRtF1OUZU5Lz",
+      "description": "WatchLiveNow | Nick Di Paolo LIVE from The Plaza Hotel \u0026#38; Casino in Las Vegas presented by Sheath Underwear! Roast of Lenny Dykstra (charity event for child hunger) $20 DONATION",
+      "invoice": null,
+      "last_payment_error": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1I2MAVFFPzmN8KRBgXGzhOZR",
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_EvjaMCtGXsvckb",
+    "idempotency_key": null
+  },
+  "type": "payment_intent.succeeded"
+}

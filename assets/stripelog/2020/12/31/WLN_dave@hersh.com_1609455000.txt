@@ -1,0 +1,165 @@
+{
+  "id": "evt_1I4ZxwFFPzmN8KRBURjJSQ8L",
+  "object": "event",
+  "api_version": "2020-08-27",
+  "created": 1609454996,
+  "data": {
+    "object": {
+      "id": "pi_1I4ZxtFFPzmN8KRBLOFBCvU0",
+      "object": "payment_intent",
+      "amount": 2000,
+      "amount_capturable": 0,
+      "amount_received": 2000,
+      "application": "ca_DbWL8VwqZdd3SEbAMOsAgspeuW9hSbKy",
+      "application_fee_amount": 40,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic",
+      "charges": {
+        "object": "list",
+        "data": [
+          {
+            "id": "ch_1I4ZxuFFPzmN8KRBdd6uxACd",
+            "object": "charge",
+            "amount": 2000,
+            "amount_captured": 2000,
+            "amount_refunded": 0,
+            "application": "ca_DbWL8VwqZdd3SEbAMOsAgspeuW9hSbKy",
+            "application_fee": null,
+            "application_fee_amount": 40,
+            "balance_transaction": "txn_1I4ZxvFFPzmN8KRBQ5TMBTwG",
+            "billing_details": {
+              "address": {
+                "city": null,
+                "country": null,
+                "line1": null,
+                "line2": null,
+                "postal_code": "10921",
+                "state": null
+              },
+              "email": null,
+              "name": "dave@hersh.com",
+              "phone": null
+            },
+            "calculated_statement_descriptor": "WATCHLIVENOW.COM",
+            "captured": true,
+            "created": 1609454994,
+            "currency": "usd",
+            "customer": "cus_IfvpBZvi7kPelL",
+            "description": "WatchLiveNow | THE FIRST NIGHT OF FUNNY - Clean, Politics free comedy this NEW YEARS EVE!",
+            "destination": null,
+            "dispute": null,
+            "disputed": false,
+            "failure_code": null,
+            "failure_message": null,
+            "fraud_details": {
+            },
+            "invoice": null,
+            "livemode": true,
+            "metadata": {
+            },
+            "on_behalf_of": null,
+            "order": null,
+            "outcome": {
+              "network_status": "approved_by_network",
+              "reason": null,
+              "risk_level": "normal",
+              "seller_message": "Payment complete.",
+              "type": "authorized"
+            },
+            "paid": true,
+            "payment_intent": "pi_1I4ZxtFFPzmN8KRBLOFBCvU0",
+            "payment_method": "pm_1I4ZxuFFPzmN8KRBBxD6tLCz",
+            "payment_method_details": {
+              "card": {
+                "brand": "visa",
+                "checks": {
+                  "address_line1_check": null,
+                  "address_postal_code_check": "pass",
+                  "cvc_check": "pass"
+                },
+                "country": "US",
+                "exp_month": 11,
+                "exp_year": 2024,
+                "fingerprint": "EGpAOp8SYH1cBLiq",
+                "funding": "credit",
+                "installments": null,
+                "last4": "1318",
+                "network": "visa",
+                "three_d_secure": null,
+                "wallet": null
+              },
+              "type": "card"
+            },
+            "receipt_email": null,
+            "receipt_number": null,
+            "receipt_url": "https://pay.stripe.com/receipts/acct_1HcvVHFFPzmN8KRB/ch_1I4ZxuFFPzmN8KRBdd6uxACd/rcpt_IfvpfRO3lmn7IKheg9IdelbUZRRyuWE",
+            "refunded": false,
+            "refunds": {
+              "object": "list",
+              "data": [
+
+              ],
+              "has_more": false,
+              "total_count": 0,
+              "url": "/v1/charges/ch_1I4ZxuFFPzmN8KRBdd6uxACd/refunds"
+            },
+            "review": null,
+            "shipping": null,
+            "source": null,
+            "source_transfer": null,
+            "statement_descriptor": null,
+            "statement_descriptor_suffix": null,
+            "status": "succeeded",
+            "transfer_data": null,
+            "transfer_group": null
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/charges?payment_intent=pi_1I4ZxtFFPzmN8KRBLOFBCvU0"
+      },
+      "client_secret": "pi_1I4ZxtFFPzmN8KRBLOFBCvU0_secret_PnMdxs7SO2uCNM1yP3TGZvboz",
+      "confirmation_method": "automatic",
+      "created": 1609454993,
+      "currency": "usd",
+      "customer": "cus_IfvpBZvi7kPelL",
+      "description": "WatchLiveNow | THE FIRST NIGHT OF FUNNY - Clean, Politics free comedy this NEW YEARS EVE!",
+      "invoice": null,
+      "last_payment_error": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1I4ZxuFFPzmN8KRBBxD6tLCz",
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_zn9XSRw0bpwXUX",
+    "idempotency_key": null
+  },
+  "type": "payment_intent.succeeded"
+}

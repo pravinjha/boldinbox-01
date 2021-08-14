@@ -1,0 +1,165 @@
+{
+  "id": "evt_1I7Pi7FFPzmN8KRBPv7Yo3W0",
+  "object": "event",
+  "api_version": "2020-08-27",
+  "created": 1610130559,
+  "data": {
+    "object": {
+      "id": "pi_1I7Pi5FFPzmN8KRBXbpzp04z",
+      "object": "payment_intent",
+      "amount": 4400,
+      "amount_capturable": 0,
+      "amount_received": 4400,
+      "application": "ca_DbWL8VwqZdd3SEbAMOsAgspeuW9hSbKy",
+      "application_fee_amount": 88,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic",
+      "charges": {
+        "object": "list",
+        "data": [
+          {
+            "id": "ch_1I7Pi6FFPzmN8KRB31g13Ive",
+            "object": "charge",
+            "amount": 4400,
+            "amount_captured": 4400,
+            "amount_refunded": 0,
+            "application": "ca_DbWL8VwqZdd3SEbAMOsAgspeuW9hSbKy",
+            "application_fee": null,
+            "application_fee_amount": 88,
+            "balance_transaction": "txn_1I7Pi7FFPzmN8KRBEQKkqY55",
+            "billing_details": {
+              "address": {
+                "city": null,
+                "country": null,
+                "line1": null,
+                "line2": null,
+                "postal_code": "10023",
+                "state": null
+              },
+              "email": null,
+              "name": "calnyc1@gmail.com",
+              "phone": null
+            },
+            "calculated_statement_descriptor": "WATCHLIVENOW.COM",
+            "captured": true,
+            "created": 1610130558,
+            "currency": "usd",
+            "customer": "cus_IirQocIsPhYQaI",
+            "description": "WatchLiveNow |  Step by Step presents: RISING STARS - Recital 2020  Step by Step presents: DANCE YOUR STORY - Recital 2020",
+            "destination": null,
+            "dispute": null,
+            "disputed": false,
+            "failure_code": null,
+            "failure_message": null,
+            "fraud_details": {
+            },
+            "invoice": null,
+            "livemode": true,
+            "metadata": {
+            },
+            "on_behalf_of": null,
+            "order": null,
+            "outcome": {
+              "network_status": "approved_by_network",
+              "reason": null,
+              "risk_level": "normal",
+              "seller_message": "Payment complete.",
+              "type": "authorized"
+            },
+            "paid": true,
+            "payment_intent": "pi_1I7Pi5FFPzmN8KRBXbpzp04z",
+            "payment_method": "pm_1I7Pi5FFPzmN8KRB8Y6qrjPP",
+            "payment_method_details": {
+              "card": {
+                "brand": "amex",
+                "checks": {
+                  "address_line1_check": null,
+                  "address_postal_code_check": "pass",
+                  "cvc_check": "pass"
+                },
+                "country": "US",
+                "exp_month": 6,
+                "exp_year": 2024,
+                "fingerprint": "1Ge08bYOXLJlImiW",
+                "funding": "credit",
+                "installments": null,
+                "last4": "3002",
+                "network": "amex",
+                "three_d_secure": null,
+                "wallet": null
+              },
+              "type": "card"
+            },
+            "receipt_email": null,
+            "receipt_number": null,
+            "receipt_url": "https://pay.stripe.com/receipts/acct_1HcvVHFFPzmN8KRB/ch_1I7Pi6FFPzmN8KRB31g13Ive/rcpt_IirQIJv5FV0vbIZVo5p0Yj23g6FyM0u",
+            "refunded": false,
+            "refunds": {
+              "object": "list",
+              "data": [
+
+              ],
+              "has_more": false,
+              "total_count": 0,
+              "url": "/v1/charges/ch_1I7Pi6FFPzmN8KRB31g13Ive/refunds"
+            },
+            "review": null,
+            "shipping": null,
+            "source": null,
+            "source_transfer": null,
+            "statement_descriptor": null,
+            "statement_descriptor_suffix": null,
+            "status": "succeeded",
+            "transfer_data": null,
+            "transfer_group": null
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/charges?payment_intent=pi_1I7Pi5FFPzmN8KRBXbpzp04z"
+      },
+      "client_secret": "pi_1I7Pi5FFPzmN8KRBXbpzp04z_secret_rhlgU9q6VXU4rn2eyifqG1oKx",
+      "confirmation_method": "automatic",
+      "created": 1610130557,
+      "currency": "usd",
+      "customer": "cus_IirQocIsPhYQaI",
+      "description": "WatchLiveNow |  Step by Step presents: RISING STARS - Recital 2020  Step by Step presents: DANCE YOUR STORY - Recital 2020",
+      "invoice": null,
+      "last_payment_error": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "next_action": null,
+      "on_behalf_of": null,
+      "payment_method": "pm_1I7Pi5FFPzmN8KRB8Y6qrjPP",
+      "payment_method_options": {
+        "card": {
+          "installments": null,
+          "network": null,
+          "request_three_d_secure": "automatic"
+        }
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_cUq65xD9Ptb1rd",
+    "idempotency_key": null
+  },
+  "type": "payment_intent.succeeded"
+}

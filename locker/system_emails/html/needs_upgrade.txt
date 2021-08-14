@@ -1,0 +1,7 @@
+Dear [FIRSTNAME_OR_USERNAME],
+ 
+You need to upgrade you account to send any more email promotions from your BoldInbox account. FYI, you have xxx_number_of_contacts_xxx] contacts in your account and you are at plan level of [xxx_max_contacts_xxx] contacts.
+
+Best,
+Team BoldInbox
+http://www.boldinbox.com

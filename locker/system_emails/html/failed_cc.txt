@@ -1,0 +1,9 @@
+Hi [FIRSTNAME_OR_USERNAME],
+ 
+The sending on your account has been temporarily on hold as your next subscription payment has been failed to go through.
+ 
+Please update your billing details or let us know if you need any assistance from our side. 
+ 
+Best,
+Team BoldInbox
+http://www.boldinbox.com
